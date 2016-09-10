@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"text/template"
 
-	"github.com/bytetrip/cordoctet/models"
-	"github.com/bytetrip/cordoctet/utils"
+	"github.com/ammilo/WeddingSite/models"
+	"github.com/ammilo/WeddingSite/utils"
 )
 
 // RootController handles main homepage functions

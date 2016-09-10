@@ -3,7 +3,7 @@ package main
 import (
 	"net/http"
 
-	"github.com/bytetrip/cordoctet/controllers"
+	"github.com/ammilo/WeddingSite/controllers"
 )
 
 func registerControllers() {

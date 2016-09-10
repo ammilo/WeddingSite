@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/bytetrip/cordoctet/utils"
+	"github.com/ammilo/WeddingSite/utils"
 )
 
 // TestController handles main homepage functions
