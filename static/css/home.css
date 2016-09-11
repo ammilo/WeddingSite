@@ -1,0 +1,129 @@
+/*
+
+red #FE251B
+peach #DF492B
+brown #754929
+brick #AC2C1D
+light brown #9E6441
+dark brown #522B1A
+nude #EC7E50
+blue #776D7B
+grey #BC9B71
+tan #ECCA7E
+
+*/
+
+html {
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+  background-color: #000000;
+  background-attachment: fixed;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  z-index: 1;
+}
+
+.hidden {
+	display: none;
+}
+
+#navbar {
+	z-index: 100;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 3em;
+	background-color: #DF492B;
+}
+
+#navlinks {
+	display: block;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	min-width: 45em;
+}
+
+.navlink {
+	margin: 2em;
+}
+
+#page-container{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: -1.3em;
+}
+
+.content.container{
+	padding-top: 10em;
+	background: url("/static/img/lake.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	display: block;
+	height: 100%;
+}
+
+.content.home.container {
+	padding-top: 0em;
+	margin-top: 0em;
+}
+
+.content.ceremony.container {
+	background: url("/static/img/field.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.content.rsvp.container {
+	background: url("/static/img/sun.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.content.travel.container {
+	background: url("/static/img/fence.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.content.lodging.container {
+	background: url("/static/img/lake.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.content.registry.container {
+	background: url("/static/img/field.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.content.text{
+	color: #776D7B;
+	background-color: #ECCA7E;
+	background-color: rgba(73, 13, 11, 0.9);
+	height: 100%;
+}
+
+.content.home.text{
+	background-color: #ECCA7E;
+	margin-top: 0em;
+}
+
+body {
+  top: auto;
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+  background-color: rgba(25,25,25,0.25);
+  background-attachment: fixed;
+}
+
+a:visited{
+		color: white;
+
+}
+
+
+

@@ -14,6 +14,7 @@ func registerControllers() {
 
 	// All the rest...
 	http.HandleFunc("/static/", controllers.StaticController)
+	
 	http.HandleFunc("/", controllers.RootController)
 
 }
